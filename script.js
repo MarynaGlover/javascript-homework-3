@@ -5,7 +5,6 @@ class SmallestIntegerFinder {
         for (let i = 0; i < args.length; i++) {
             if (args[i] < min) {
                 min = args[i];
-
             }
         }
         return min;
@@ -22,13 +21,11 @@ function circleCircumference(circle) {
 class Shark extends Animal {
     constructor(name, age, status) {
         super(name, age, 0, "shark", status);
-
-    }
+}
     introduce() {
         return super.introduce();
     }
 }
-
 class Cat extends Animal {
     constructor(name, age, status) {
         super(name, age, 4, "cat", status);
@@ -43,7 +40,6 @@ class Dog extends Animal {
     }
     introduce() {
         return super.introduce();
-
     }
     greetMaster() {
         return "Hello Eliza";
@@ -56,7 +52,6 @@ function giveMeFive(obj) {
     for (var key in obj) {
         if (key.length == 5) {
             five.push(key);
-
         }
         console.log(key);
     }
